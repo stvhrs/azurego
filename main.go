@@ -118,6 +118,6 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/read2", getbook)
-	router.Run("localhost:8080")
+	router.Run("https://belajar.azurewebsites.net")
 
 }
