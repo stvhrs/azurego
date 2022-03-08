@@ -118,6 +118,8 @@ func main() {
 
 	router := gin.Default()
 	router.GET("/read2", getbook)
+	
+	router.GET("", getbook)
 	router.Run()
 
 }
